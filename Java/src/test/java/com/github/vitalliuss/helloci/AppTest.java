@@ -22,6 +22,10 @@ public class AppTest {
 	}
 
 	@Test
+	public void test3ShoudBePassed() {
+		assertTrue(true);
+	}
+	@Test
 	public void testShouldBeFailed() {
 		assertTrue(false);
 	}
